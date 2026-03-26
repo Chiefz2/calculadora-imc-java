@@ -12,7 +12,7 @@ public class IMC {
     }
 
     public void setAltura(double altura){
-        if(altura < 0){
+        if(altura <= 0){
             throw new IllegalArgumentException("A altura não pode ser negativa");
         }
         this.altura = altura;
